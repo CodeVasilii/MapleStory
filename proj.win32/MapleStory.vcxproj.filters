@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\MainScene">
+      <UniqueIdentifier>{0c79c088-953b-4179-bcc3-6953dfbeaf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Editor">
+      <UniqueIdentifier>{dc6d1435-b160-4d59-aa2d-8ec0be7216b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainGame.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainLogicLayer.cpp">
+      <Filter>Classes\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>Classes\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainUILayer.cpp">
+      <Filter>Classes\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>Classes\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerEditorScene.cpp">
+      <Filter>Classes\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LayerPlayerEditor.cpp">
+      <Filter>Classes\Editor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainGame.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainLogicLayer.h">
+      <Filter>Classes\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>Classes\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainUILayer.h">
+      <Filter>Classes\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerEditorScene.h">
+      <Filter>Classes\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>Classes\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LayerPlayerEditor.h">
+      <Filter>Classes\Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
